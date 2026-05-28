@@ -1,29 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { timelineData } from "../data/timelineData";
+import TimelineCardIllust from "../components/illustrations/TimelineCardIllust";
 import TimelineIllust from "../components/illustrations/TimelineIllust";
-
-function TimelineIcon({ type, color }) {
-  const style = { "--icon-color": color };
-  if (type === "circle") {
-    return <div className="tl-icon tl-icon-circle" style={style} />;
-  }
-  if (type === "x") {
-    return <div className="tl-icon tl-icon-x" style={style}>✕</div>;
-  }
-  if (type === "brain") {
-    return <div className="tl-icon tl-icon-brain" style={style}>⬡</div>;
-  }
-  if (type === "triangle") {
-    return <div className="tl-icon tl-icon-triangle" style={style}>▲</div>;
-  }
-  if (type === "star") {
-    return <div className="tl-icon tl-icon-star" style={style}>★</div>;
-  }
-  if (type === "atom") {
-    return <div className="tl-icon tl-icon-atom" style={style}>⬡</div>;
-  }
-  return <div className="tl-icon tl-icon-circle" style={style} />;
-}
+import { timelineData } from "../data/timelineData";
 
 function TimelineCard({ item, index, visible }) {
   const isRight = index % 2 === 0;
@@ -31,7 +9,7 @@ function TimelineCard({ item, index, visible }) {
     <div className={`tl-card-wrap ${isRight ? "tl-right" : "tl-left"} ${visible ? "tl-visible" : ""}`}>
       <div className="tl-card" style={{ "--card-accent": item.iconColor }}>
         <div className="tl-card-header">
-          <TimelineIcon type={item.icon} color={item.iconColor} />
+          <TimelineCardIllust era={item.id} />
           <div className="tl-card-meta">
             <span className="tl-era">{item.era}</span>
             <span className="tl-period">{item.period}</span>

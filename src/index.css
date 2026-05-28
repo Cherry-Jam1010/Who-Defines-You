@@ -597,8 +597,19 @@ canvas.particle-field { display: block; }
 .tl-card-header {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 12px;
+}
+
+.tl-card-illust {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  opacity: 0.75;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  border: 1px solid rgba(140, 150, 255, 0.08);
 }
 
 .tl-card-meta {
@@ -607,33 +618,10 @@ canvas.particle-field { display: block; }
   gap: 2px;
 }
 
-.tl-icon {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.7rem;
-  flex-shrink: 0;
-  border: 1.5px solid var(--icon-color, #8c96ff);
-  color: var(--icon-color, #8c96ff);
-  background: rgba(0, 0, 0, 0.2);
-  font-family: monospace;
-}
-
-.tl-icon-circle { border-radius: 50%; }
-.tl-icon-x { font-size: 0.6rem; }
-.tl-icon-star { color: var(--icon-color); }
-
-.tl-card-wrap.tl-left .tl-card-meta {
-  text-align: right;
-}
-
 .tl-era {
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--icon-color, var(--text-main));
+  color: var(--card-accent, var(--text-main));
   letter-spacing: 0.04em;
 }
 

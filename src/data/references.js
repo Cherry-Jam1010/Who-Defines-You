@@ -41,7 +41,7 @@ export const references = [
     title: "Mental Health of Transgender Children Who Are Supported in Their Identities",
     source: "Pediatrics, 137(3), e20153223",
     url: "https://publications.aap.org/pediatrics/article/137/3/e20153223/81409/Mental-Health-of-Transgender-Children-Who-Are",
-    note: "显示在支持性环境中成长的跨性别儿童，其抑郁水平接近发展常模，支撑"支持性环境与心理健康正相关"的论点。"
+    note: "显示在支持性环境中成长的跨性别儿童，其抑郁水平接近发展常模，支撑「支持性环境与心理健康正相关」的论点。"
   },
   {
     id: "reisner-2015",
@@ -86,7 +86,7 @@ export const references = [
     title: "Neurobiological Characteristics Associated With Gender Identity: Findings From Neuroimaging Studies in the Amsterdam Cohort of Children and Adolescents Experiencing Gender Incongruence",
     source: "Hormones and Behavior, 160, 105491",
     url: "https://www.sciencedirect.com/science/article/abs/pii/S0018506X24001260",
-    note: "阿姆斯特丹队列神经影像学研究，探讨青春期前后性别不一致的大脑结构基础，指出"性别不一致大脑"尚未形成可靠生物标志物。"
+    note: "阿姆斯特丹队列神经影像学研究，探讨青春期前后性别不一致的大脑结构基础，指出「性别不一致大脑」尚未形成可靠生物标志物。"
   },
   {
     id: "kaltiala-2023",
@@ -104,7 +104,7 @@ export const references = [
     title: "Gender Identity Development: A Systematic Review of Longitudinal Studies",
     source: "British Journal of Developmental Psychology, 41(2), 103-129",
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12070138/",
-    note: "系统综述 21 项纵向研究，发现不同测量工具揭示的性别认同发展轨迹存在差异，提示"性别认同"是多维度而非单一概念。"
+    note: "系统综述 21 项纵向研究，发现不同测量工具揭示的性别认同发展轨迹存在差异，提示「性别认同」是多维度而非单一概念。"
   },
 
   // ============================================================
@@ -204,7 +204,7 @@ export const references = [
     source: "Springer",
     url: "https://doi.org/10.1007/978-3-319-24612-3",
     pdf: "./references_downloads/978-3-319-24612-3.pdf",
-    note: "Springer 人格与个体差异百科全书，涵盖性别差异与人格的多维研究视角，是支撑"性别认同是连续谱"的综合参考文献。"
+    note: "Springer 人格与个体差异百科全书，涵盖性别差异与人格的多维研究视角，是支撑「性别认同是连续谱」的综合参考文献。"
   },
 
   // ============================================================
@@ -218,7 +218,7 @@ export const references = [
     source: "Psychological Review, 106(4), 676-713",
     url: "https://psycnet.apa.org/doi/10.1037/0033-295X.106.4.676",
     pdf: "./references_downloads/BussBand99.pdf",
-    note: "Bandura 社会认知理论框架，系统阐述社会影响网络如何在动机与自我调节机制下塑造性别化行为，支撑页面"社会化解释"理论。"
+    note: "Bandura 社会认知理论框架，系统阐述社会影响网络如何在动机与自我调节机制下塑造性别化行为，支撑页面「社会化解释」理论。"
   },
   {
     id: "eagly-wood-diekman-2000",
@@ -246,7 +246,7 @@ export const references = [
     title: "The Nature–Nurture Debates: 25 Years of Challenges in Understanding the Psychology of Gender",
     source: "Perspectives on Psychological Science, 8(3), 340-349",
     url: "https://journals.sagepub.com/doi/10.1177/1745691613484767",
-    note: "综述 25 年来性别心理学中本质论与社会建构论之争，倡导生物-社会整合视角，是理解"性别认同是多元因素共同作用"的关键文献。"
+    note: "综述 25 年来性别心理学中本质论与社会建构论之争，倡导生物-社会整合视角，是理解「性别认同是多元因素共同作用」的关键文献。"
   },
 
   // ============================================================

@@ -1,0 +1,109 @@
+真实参考文献与下载/访问地址
+整理时间：2026-05-25
+说明：
+1. 下面只保留真实、可核对的学术来源或官方指南。
+2. “下载地址”优先给官方 PDF；若数据库/期刊限制了直链，则给官方全文页或 PMC 全文页（通常页面内可直接点 PDF）。
+3. 个别期刊页面可能需要学校/机构权限，我已在对应条目后标明。
+
+--------------------------------------------------
+1. American Psychological Association. (2015).
+   Guidelines for Psychological Practice With Transgender and Gender Nonconforming People.
+   刊物：American Psychologist, 70(9), 832-864.
+   DOI：10.1037/a0039906
+   用途：心理实践、污名、发展过程、支持性环境与临床伦理的基础指南。
+   PubMed信息页：
+   https://pubmed.ncbi.nlm.nih.gov/26653312/
+   官方PDF：
+   https://www.apa.org/practice/guidelines/transgender.pdf
+
+--------------------------------------------------
+2. Coleman, E., Radix, A. E., Bouman, W. P., et al. (2022).
+   Standards of Care for the Health of Transgender and Gender Diverse People, Version 8.
+   刊物：International Journal of Transgender Health, 23(sup1), S1-S259.
+   DOI：10.1080/26895269.2022.2100644
+   用途：跨性别与性别多元人群照护的权威综合指南，适合支撑“整合视角”和“临床支持”部分。
+   官方全文页：
+   https://www.tandfonline.com/doi/full/10.1080/26895269.2022.2100644
+   官方PDF：
+   https://www.tandfonline.com/doi/pdf/10.1080/26895269.2022.2100644
+
+--------------------------------------------------
+3. Reisner, S. L., Vetters, R., Leclerc, M., Zaslow, S., Wolfrum, S., Shumer, D., & Mimiaga, M. J. (2015).
+   Mental Health of Transgender Youth in Care at an Adolescent Urban Community Health Center: A Matched Retrospective Cohort Study.
+   刊物：Journal of Adolescent Health, 56(3), 274-279.
+   DOI：10.1016/j.jadohealth.2014.10.264
+   用途：支持“跨性别青少年在心理健康风险上显著高于匹配顺性别对照组”的论述。
+   PMC全文页（页面内可下载PDF）：
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC4339405/
+
+--------------------------------------------------
+4. Gower, A. L., Rider, G. N., Brown, C., et al. (2018).
+   Supporting Transgender and Gender Diverse Youth: Protection Against Emotional Distress and Substance Use.
+   刊物：American Journal of Preventive Medicine, 55(6), 787-794.
+   DOI：10.1016/j.amepre.2018.06.030
+   用途：适合支撑“家庭、学校与社会支持可降低情绪困扰和物质使用风险”的部分。
+   PMC全文页（页面内可下载PDF）：
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC6501838/
+
+--------------------------------------------------
+5. Potter, A., Dube, S., Allgaier, N., et al. (2021).
+   Early Adolescent Gender Diversity and Mental Health in the Adolescent Brain Cognitive Development Study.
+   刊物：Journal of Child Psychology and Psychiatry, 62(2), 171-179.
+   DOI：10.1111/jcpp.13248
+   用途：适合支撑“早期青少年样本中，性别多样性与心理健康指标之间存在显著关联”的讨论。
+   PMC全文页（页面内可下载PDF）：
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC7704539/
+
+--------------------------------------------------
+6. Pollitt, A. M., Ioverno, S., Russell, S. T., Li, G., & Grossman, A. H. (2021).
+   Predictors and Mental Health Benefits of Chosen Name Use Among Transgender Youth.
+   刊物：Youth & Society, 53(2), 320-341.
+   DOI：10.1177/0044118X19855898
+   用途：适合支撑“被按自己选择的名字称呼，与更好的心理健康结果相关”的内容。
+   PMC全文页（页面内可下载PDF）：
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC7678041/
+
+--------------------------------------------------
+7. Olson, K. R., Durwood, L., DeMeules, M., & McLaughlin, K. A. (2016).
+   Mental Health of Transgender Children Who Are Supported in Their Identities.
+   刊物：Pediatrics, 137(3), e20153223.
+   DOI：10.1542/peds.2015-3223
+   用途：适合支撑“在支持性环境中成长的跨性别儿童，抑郁水平接近发展常模”的论述。
+   官方文章页（可能需要机构权限）：
+   https://publications.aap.org/pediatrics/article/137/3/e20153223/81409/Mental-Health-of-Transgender-Children-Who-Are
+
+--------------------------------------------------
+8. Rafferty, J. (2018).
+   Ensuring Comprehensive Care and Support for Transgender and Gender-Diverse Children and Adolescents.
+   刊物：Pediatrics, 142(4), e20182162.
+   DOI：10.1542/peds.2018-2162
+   用途：儿科学立场文件，适合支撑“综合照护、家庭支持、学校安全与去污名化”的部分。
+   官方文章页：
+   https://publications.aap.org/pediatrics/article/142/4/e20182162/37381/Ensuring-Comprehensive-Care-and-Support-for
+
+--------------------------------------------------
+9. Littman, L. (2018).
+   Parent Reports of Adolescents and Young Adults Perceived to Show Signs of a Rapid Onset of Gender Dysphoria.
+   刊物：PLOS ONE, 13(8), e0202330.
+   DOI：10.1371/journal.pone.0202330
+   用途：适合放在“争议案例/方法学争论”部分，不建议把它当作定论，应结合其后续更正一起引用。
+   官方文章页：
+   https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202330
+   官方PDF：
+   https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0202330&type=printable
+   2019年更正PDF：
+   https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0214157&type=printable
+
+--------------------------------------------------
+如果你后面要把这些文献直接贴到课程展示页里，建议优先选：
+1. APA 2015 指南
+2. WPATH SOC-8 (2022)
+3. Reisner et al. (2015)
+4. Gower et al. (2018)
+5. Olson et al. (2016)
+6. Pollitt et al. (2021)
+
+如果你愿意，我下一步可以继续帮你把这份 txt 里的文献：
+1. 直接整理成 APA 格式参考文献列表
+2. 写进你网页的 references 区块
+3. 按“支持性证据 / 争议性证据 / 官方指南”三类重新分组

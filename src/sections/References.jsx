@@ -7,7 +7,7 @@ export default function References() {
       <SectionTitle
         eyebrow="References"
         title="真实参考文献"
-        subtitle="下面这些文献都可以直接核对，覆盖了页面里用到的心理实践、案例讨论、儿科支持与方法学争议。"
+        subtitle="以下文献均可直接核对，涵盖心理实践指南、实证研究、神经生物学基础、社会角色理论与争议案例等多元视角。"
       />
       <div className="reference-grid">
         {references.map((item) => (
@@ -17,9 +17,16 @@ export default function References() {
             <p className="reference-authors">{item.authors}</p>
             <p className="reference-source">{item.source}</p>
             <p className="reference-note">{item.note}</p>
-            <a href={item.url} target="_blank" rel="noreferrer">
-              查看来源
-            </a>
+            <div className="reference-links">
+              <a href={item.url} target="_blank" rel="noreferrer">
+                查看来源
+              </a>
+              {item.pdf && (
+                <a href={item.pdf} target="_blank" rel="noreferrer" className="pdf-link">
+                  下载 PDF
+                </a>
+              )}
+            </div>
           </article>
         ))}
       </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { theoriesData } from "../data/theoriesData";
+import BioPsychoSocialIllust from "../components/illustrations/BioPsychoSocialIllust";
 
 function TheoryCard({ theory, active, onActivate }) {
   return (
@@ -73,18 +74,25 @@ export default function TheoryExploration({ visible }) {
       </div>
 
       <div className="theory-integrated-note">
-        <div className="theory-integrated-line" />
-        <p>
-          <strong>当代主流立场</strong>：没有单一理论能够完整解释性别认同。
-          <br />
-          APA（2015）、WPATH SOC-8（2022）和大多数临床指南采用整合视角——
-          承认生物因素的基础性，也承认社会环境对心理健康的关键影响。
-          <br />
-          <span className="theory-integrated-emphasis">
-            「肯定性的环境与支持」是跨性别青少年心理健康最有力的保护因素——
-            这一结论在研究中高度一致。
-          </span>
-        </p>
+        <div className="theory-integrated-body">
+          <div className="theory-integrated-text">
+            <div className="theory-integrated-line" />
+            <p>
+              <strong>当代主流立场</strong>：没有单一理论能够完整解释性别认同。
+              <br />
+              APA（2015）、WPATH SOC-8（2022）和大多数临床指南采用整合视角——
+              承认生物因素的基础性，也承认社会环境对心理健康的关键影响。
+              <br />
+              <span className="theory-integrated-emphasis">
+                「肯定性的环境与支持」是跨性别青少年心理健康最有力的保护因素——
+                这一结论在研究中高度一致。
+              </span>
+            </p>
+          </div>
+          <div className="theory-integrated-illust">
+            <BioPsychoSocialIllust />
+          </div>
+        </div>
       </div>
     </section>
   );

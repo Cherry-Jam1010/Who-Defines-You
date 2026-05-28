@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import FlyingLabel from "../components/FlyingLabel";
+import MirrorIllust from "../components/illustrations/MirrorIllust";
 import { noiseLabels } from "../data/noiseLabels";
 
 function createNoiseLabels() {
@@ -70,7 +71,7 @@ export default function Experience({ stream, status, onBroken }) {
             />
           ) : (
             <div className="experience-placeholder">
-              <div className="experience-placeholder-icon" />
+              <MirrorIllust />
               <p>正在获取摄像头……</p>
             </div>
           )}

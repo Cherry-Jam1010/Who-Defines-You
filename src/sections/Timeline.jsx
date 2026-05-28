@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { timelineData } from "../data/timelineData";
+import TimelineIllust from "../components/illustrations/TimelineIllust";
 
 function TimelineIcon({ type, color }) {
   const style = { "--icon-color": color };
@@ -87,15 +88,21 @@ export default function Timeline({ visible }) {
       </div>
 
       <div className="timeline-track">
-        <div className="timeline-line" />
-        {timelineData.map((item, index) => (
-          <div
-            key={item.id}
-            ref={(el) => { cardRefs.current[index] = el; }}
-          >
-            <TimelineCard item={item} index={index} visible={visibleCards.has(index)} />
+        <div className="timeline-track-inner">
+          <div className="timeline-track-illust">
+            <TimelineIllust />
           </div>
-        ))}
+          <div className="timeline-cards">
+            {timelineData.map((item, index) => (
+              <div
+                key={item.id}
+                ref={(el) => { cardRefs.current[index] = el; }}
+              >
+                <TimelineCard item={item} index={index} visible={visibleCards.has(index)} />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

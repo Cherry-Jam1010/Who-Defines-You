@@ -1,9 +1,13 @@
+import IdentityIllust from "../components/illustrations/IdentityIllust";
 import { quietQuestions } from "../data/quietQuestions";
 
 export default function Closing() {
   return (
     <section id="closing" className="closing-section shell">
       <div className="closing-inner">
+        <div className="closing-illust">
+          <IdentityIllust />
+        </div>
         <p className="closing-hook">你呢？</p>
 
         <div className="closing-questions">

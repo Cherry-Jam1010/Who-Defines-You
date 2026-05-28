@@ -1,40 +1,40 @@
-import Navbar from "./components/Navbar";
 import { useCamera } from "./hooks/useCamera";
-import CaseArchive from "./sections/CaseArchive";
-import Hero from "./sections/Hero";
-import HistoryLens from "./sections/HistoryLens";
-import LabelStorm from "./sections/LabelStorm";
-import MirrorIntro from "./sections/MirrorIntro";
-import Reflection from "./sections/Reflection";
-import References from "./sections/References";
-import TheoryLens from "./sections/TheoryLens";
+import EvidenceRoom from "./sections/EvidenceRoom";
+import ExternalNoise from "./sections/ExternalNoise";
+import HeroEntrance from "./sections/HeroEntrance";
+import TheQuestion from "./sections/TheQuestion";
+import Underneath from "./sections/Underneath";
 
 export default function App() {
-  const { stream, status, error, requestCamera, stopCamera } = useCamera();
+  const { stream, status, requestCamera } = useCamera();
+
+  function scrollTo(id) {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 
   async function handleOpenMirror() {
-    document.getElementById("mirror")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollTo("noise");
     await requestCamera();
+  }
+
+  function handleBroken() {
+    setTimeout(() => scrollTo("underneath"), 300);
   }
 
   return (
     <>
-      <Navbar />
       <main className="page-shell">
-        <Hero onOpenMirror={handleOpenMirror} />
-        <MirrorIntro
+        <HeroEntrance onOpenMirror={handleOpenMirror} />
+        <ExternalNoise
           stream={stream}
           status={status}
-          error={error}
-          onRequestCamera={requestCamera}
-          onStopCamera={stopCamera}
+          onBroken={handleBroken}
         />
-        <HistoryLens stream={stream} status={status} />
-        <TheoryLens stream={stream} status={status} />
-        <LabelStorm stream={stream} status={status} />
-        <CaseArchive />
-        <Reflection />
-        <References />
+        <Underneath stream={stream} status={status} />
+        <TheQuestion />
+        <div className="evidence-wrapper">
+          <EvidenceRoom />
+        </div>
       </main>
     </>
   );

@@ -4,7 +4,7 @@ export default function KeywordOverlay({ keywords = [], accent }) {
       {keywords.map((keyword, index) => (
         <span
           key={`${keyword}-${index}`}
-          className="keyword-chip"
+          className="keyword-tag"
           style={{
             "--delay": `${index * 0.12}s`,
             "--accent": accent

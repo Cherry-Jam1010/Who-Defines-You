@@ -1,13 +1,11 @@
 export default function FlyingLabel({ label, cleared }) {
   return (
     <div
-      className={`flying-label tone-${label.tone} ${cleared ? "is-cleared" : "is-visible"}`}
+      className={`flying-label tone-${label.tone}${cleared ? " cleared" : ""}`}
       style={{
-        "--x": `${label.x}px`,
-        "--y": `${label.y}px`,
-        "--rotate": `${label.rotate}deg`,
-        "--delay": `${label.delay}s`,
-        "--scale": label.scale
+        left: `calc(50% + ${label.x}px)`,
+        top: `calc(50% + ${label.y}px)`,
+        transform: `translate(-50%, -50%) rotate(${label.rotate}deg) scale(${label.scale})`
       }}
     >
       {label.text}

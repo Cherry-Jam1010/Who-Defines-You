@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import TimelineCardIllust from "../components/illustrations/TimelineCardIllust";
+import AnimatedTimelineCard from "../components/animated-illustrations/AnimatedTimelineCard";
 import TimelineIllust from "../components/illustrations/TimelineIllust";
 import { timelineData } from "../data/timelineData";
 
@@ -8,19 +8,21 @@ function TimelineCard({ item, index, visible }) {
   return (
     <div className={`tl-card-wrap ${isRight ? "tl-right" : "tl-left"} ${visible ? "tl-visible" : ""}`}>
       <div className="tl-card" style={{ "--card-accent": item.iconColor }}>
-        <div className="tl-card-header">
-          <TimelineCardIllust era={item.id} />
+        {/* Full-width animated illustration header */}
+        <AnimatedTimelineCard eraId={item.id} accentColor={item.iconColor} />
+
+        <div className="tl-card-body">
           <div className="tl-card-meta">
             <span className="tl-era">{item.era}</span>
             <span className="tl-period">{item.period}</span>
           </div>
-        </div>
-        <h3 className="tl-theme">{item.theme}</h3>
-        <p className="tl-content">{item.content}</p>
-        <div className="tl-keywords">
-          {item.keywords.map((k) => (
-            <span key={k} className="tl-kw">{k}</span>
-          ))}
+          <h3 className="tl-theme">{item.theme}</h3>
+          <p className="tl-content">{item.content}</p>
+          <div className="tl-keywords">
+            {item.keywords.map((k) => (
+              <span key={k} className="tl-kw">{k}</span>
+            ))}
+          </div>
         </div>
       </div>
     </div>
@@ -44,7 +46,7 @@ export default function Timeline({ visible }) {
             obs.disconnect();
           }
         },
-        { threshold: 0.15 }
+        { threshold: 0.12 }
       );
       obs.observe(el);
       observers.push(obs);
